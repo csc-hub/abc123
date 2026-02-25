@@ -1,10 +1,13 @@
 def add():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
-    if(a>b):
-        print("a is greater")
-    else:
-        print("b is greater")
-    print(a + b)
-
+    return a + b
 print("The sum of the two numbers is:", add())
+c= int(input("Enter a number: "))
+print("The result after subtraction is:", c)
+if c > 0:
+    print("The number is positive.")
+elif c < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
